@@ -1,0 +1,59 @@
+
+.head {
+    height: 5rem;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    min-width: 23.44rem;
+    box-shadow: $boxShadow;
+
+
+
+    .headNav {
+        margin: 0 auto;
+        padding: 1rem 5rem;
+        max-width: 1440px;
+        min-width: 375px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transition: all .5s ease-in;
+
+
+        p {
+            font-weight: 600;
+            cursor: pointer;
+            
+        }
+        
+        .fa-moon {
+            margin-right: .38rem;
+            
+        }
+    
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

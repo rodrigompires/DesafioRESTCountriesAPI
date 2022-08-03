@@ -1,0 +1,124 @@
+//Medias da pagina principal
+
+@media screen and (max-width: 1200px) {
+    .country-container {
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .country-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media screen and (max-width: 845px) {
+    .filters {
+        display: block;
+
+        input {
+            width: 250px;
+        }
+
+        .search {
+            width: 250px;
+
+        }
+    }
+
+    .dropdown-container {
+        margin-top: 50px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .country-container {
+        grid-template-columns: 1fr;
+        padding: 1rem 6rem;
+
+
+    }
+
+    .filters {
+        padding: 1rem 2rem;
+
+    }
+
+    .head {
+
+
+
+
+        .headNav {
+            padding: 1rem 2rem;
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-weight: 600;
+                cursor: pointer;
+                font-size: 14px;
+            }
+
+            .fa-moon {
+                margin-right: 6px;
+
+            }
+
+        }
+
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .country {
+        grid-template-columns: 1fr;
+    }
+
+    .country-image {
+        width: 87.6%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .details {
+        margin: 0 auto;
+        width: 80%;
+        display: block;
+        margin-top: 3rem;
+        
+
+    }
+
+    .border-countries {
+        margin: 3rem auto;
+        width: 80%;
+    }
+
+    .secondary-details {
+        margin-top: 1rem;
+        margin-left: 0;
+        min-width: 15rem;    
+    }
+}

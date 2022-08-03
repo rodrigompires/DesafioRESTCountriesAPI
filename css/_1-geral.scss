@@ -1,0 +1,48 @@
+// Cores
+$colorBackgroundLight: hsl(0, 0%, 98%);
+$colorDarkModeElements: hsl(209, 23%, 22%);
+$colorDarkModeBackground: hsl(207, 26%, 17%);
+$colorLightModeText: hsl(200, 15%, 8%);
+$colorLightModeInput: hsl(0, 0%, 52%);
+$colorDarkModeText_LightModeElements: hsl(0, 0%, 100%);
+
+
+$color: #2B3743;
+$color2: #202D36;
+
+
+
+// Arredondamentos
+$radius: 5px;
+
+// Sombras
+$boxShadow: 0 0 5px rgba(0, 0, 0, .3);
+
+
+// Transições
+$transitions: all .5s ease-in;
+
+
+// Tipografia
+$home: 14px;
+$others: 16px;
+$ffamily: 'Nunito Sans', sans-serif;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    font-family: $ffamily;
+    background-color: $colorBackgroundLight;
+    
+}

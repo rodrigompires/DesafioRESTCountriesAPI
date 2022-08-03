@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Nunito', sans-serif;
+    ;
+
+}
+
+.head {
+    height: 5rem;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    min-width: 375px;
+    box-shadow: $boxShadow;
+
+    .headNav {
+        margin: 0 auto;
+        padding: 1rem 5rem;
+        max-width: 1440px;
+        min-width: 375px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transition: $transitions; 
+        
+
+        .fa-moon {
+            margin-right: .38rem;
+
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+.sectionw {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 4.6rem 5rem 0 5rem;
+
+    .back-btn {
+        border-radius: $radius;
+        height: 2.8rem;
+        width: 8.5rem;
+        padding: .5rem;
+        border: none;
+        font-size: $others;
+        cursor: pointer;
+        transition: $transitions; 
+        
+
+    }
+
+    .back-btn span:first-child {
+        margin-right: .25rem;
+    }
+
+
+}
+
+.country {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 4.7rem 5rem 0 5rem;
+
+   
+
+    
+
+    .InNativeName,
+    .InPopulation,
+    .InRegion,
+    .InSubRegion,
+    .InCapital {
+        font-weight: 800;
+        margin-bottom: .7rem;
+
+
+    }
+
+    .nativeMo,
+    .populationMo,
+    .regionMo,
+    .subregionMo,
+    .capitalMo {
+        font-weight: 600;
+
+    }
+
+   
+
+    .Intld,
+    .InCurrencies,
+    .InLanguages {
+        font-weight: 800;
+        margin-bottom: .7rem;
+
+
+
+    }
+
+    .tldMo,
+    .currenciesMo,
+    .languagesMo {
+        font-weight: 600;
+
+    }
+
+}
+
+.border-countries {
+    display: flex;
+    align-items: center;
+    margin-left: 2.4rem;
+    margin-top: 3.6rem;
+
+
+
+}
+
+.border-countries p {
+    font-weight: 800;
+    font-size: .94rem;
+    min-width: 8rem;
+    margin-right: 1.1rem;
+
+}
+
+.country-image {
+    width: 87.6%;
+    height: 100%;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        object-fit: fill;
+    }
+
+}
+
+
+.country-btn {
+    border: none;
+    border-radius: 2px;
+    height: 2rem;
+    width: 6rem;
+    padding: .5rem;
+    margin-right: .3rem;
+    margin-bottom: .2rem;   
+    transition: $transitions; 
+
+}
+
+.page1 {
+    display: "";
+}
+
+.page2 {
+    display: none;
+}
+
+
+.details {
+    display: flex;
+    width: 100%;
+    margin: 1rem 2.4rem;
+}
+
+.primary-details {
+    min-width: 8rem;
+}
+
+.primary-details.country-name {
+    font-size: 2rem;
+    padding: 1.3rem 0 1.6rem 0;
+}
+
+
+.secondary-details {
+    margin-top: 5.7rem;
+    margin-left: 8.31rem;
+    min-width: 18rem;
+}

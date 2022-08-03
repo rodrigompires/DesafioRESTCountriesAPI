@@ -1,0 +1,149 @@
+.filters {
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 3rem auto;
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: $transitions; 
+
+    .search {
+        position: relative;
+        display: flex;
+        width: 30rem;
+        min-width: 6.25rem;
+        transition: $transitions; 
+
+        .fa-search {
+            position: absolute;
+            top: 1.2rem;
+            left: 1.9rem;
+            width: 1rem;
+        
+        }
+
+        .inputSearch {
+            border: none;
+            border-radius: $radius;
+            height: 3.5rem;
+            width: 100%;
+            
+            padding: 1rem 1.5rem;
+        
+            outline: 0;
+            text-indent: 3.1rem;
+            cursor: pointer;
+            box-shadow: $boxShadow;
+             
+        
+        }
+
+        input::placeholder {
+            letter-spacing: .01rem;
+            font-weight: 300;       
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    width: 12.5rem;
+
+    height: 3.5rem;
+    border-radius: $radius;
+    box-shadow: $boxShadow;
+    
+
+    .btnDropdown {
+        border: none;
+    
+        height: 3.5rem;
+        width: 100%;
+        padding: 1rem;
+    
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        .placeholder {
+            margin-left: .4rem;
+            margin-right: 2.1rem;
+            width: 7.50rem;
+            font-size: $home;
+            font-weight: 600;
+        
+        }
+
+        .fa-chevron-down {
+            margin-right: .2rem;
+            font-size: .63rem;
+       }
+      
+    
+        
+    }
+
+    .contentFilter {
+        display: none;
+        position: absolute;  
+        overflow: hidden;
+        width: 100%;
+        margin-top: .3rem;
+        cursor: pointer;
+        animation: show .3s alternate;
+        box-shadow: $boxShadow;
+        border-radius: $radius;
+        background-color: $colorDarkModeText_LightModeElements;
+    
+        .nameRegions {
+            padding: .5rem 1.5rem;
+            cursor: pointer;
+            animation: show2 .3s linear;
+        }
+        
+    
+        .nameRegions:hover {
+            background-color: rgba(238, 228, 228, .5);
+            transition: .5s;
+        }  
+        
+        
+    }
+ 
+
+}
+
+     
+
+.contentFilter.open {
+    display: block;
+}
+
+
+@keyframes show {
+    from {
+        
+        opacity: 0;
+    }
+
+    to {
+        
+        opacity: 1;
+
+    }
+
+}
+
+

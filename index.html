@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio Front End Mentor">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Rodrigo Pires">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91e0be7ef6.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <title>Desafio</title>
+</head>
+
+<body>
+    <main>
+        <header class="container head page1">
+            <div class="headNav">
+                <h2>Where in the world?</h2>
+                <p class="btnToggle"><i class="fa-regular fa-moon"></i>Dark Mode</p>
+            </div>
+        </header>
+
+
+        <nav class="container page1">
+            <div class="filters">
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                    <input class="inputSearch" type="text" placeholder="Search for a country..." value="">
+                </div>
+                <div class="dropdown-container">
+                    <div class="btnDropdown">
+                        <span class="placeholder">Filter by Region</span>
+                        <span><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="contentFilter">
+                        <div class="regions">
+                            <p class="nameRegions">Filter by Region</p>
+                            <p class="nameRegions">Africa</p>
+                            <p class="nameRegions">Americas</p>
+                            <p class="nameRegions">Antarctic</p>
+                            <p class="nameRegions">Asia</p>
+                            <p class="nameRegions">Europe</p>
+                            <p class="nameRegions">Oceania</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="country-container page1">
+
+        </div>
+
+
+        <header class="container head page2">
+            <div class="headNav">
+                <h2>Where in the world?</h2>
+                <p class="btnToggle"><i class="fa-regular fa-moon"></i>Dark Mode</p>
+            </div>
+        </header>
+
+
+        <section class="sectionw page2">
+            <button class="back-btn">
+                <span><i class="fas fa-long-arrow-alt-left"></i></span>
+                <span>Back</span>
+            </button>
+        </section>
+
+
+        <section class="country page2">
+
+            <div class="country-image">
+                <img class="imgmodal" src="/Design/2492630-bandeira-oficial-da-belgica-grátis-vetor.jpg" alt="bandeira belgica">
+            </div>
+            <div class="country-details">
+                <div class="details">
+                    <div class="primary-details page2">
+                        <!-- <h3 class="name-country"></h3> -->
+                        <h4 class="InNativeName">Native Name: <span class="nativeMo"></span></h4>
+                        <h4 class="InPopulation">Population: <span class="populationMo">11,319,511</span></h4>
+                        <h4 class="InRegion">Region: <span class="regionMo">Europe</span></h4>
+                        <h4 class="InSubRegion">Sub Region: <span class="subregionMo">Western Europe</span></h4>
+                        <h4 class="InCapital">Capital: <span class="capitalMo">Brussels</span></h4>
+                    </div>
+                    <div class="secondary-details">
+                        <h4 class="Intld">Top Level Domain: <span class="tldMo">.be</span></h4>
+                        <h4 class="InCurrencies">Currencies: <span class="currenciesMo">Euro</span></h4>
+                        <h4 class="InLanguages">Languages: <span class="languagesMo">Dutch, French, German</span></h4>
+                    </div>
+
+                </div>
+
+                <div class="border-countries">
+                    <p>Border Countries:</p>
+
+                    <div class="buttons">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

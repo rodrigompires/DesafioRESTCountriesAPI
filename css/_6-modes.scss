@@ -1,0 +1,54 @@
+body.dark {
+    background-color: $colorDarkModeBackground;
+    
+    color: $colorDarkModeText_LightModeElements;
+
+    .head  {
+        background-color:  $colorDarkModeElements;
+    }
+
+    .search input::placeholder {
+        background-color: $colorDarkModeElements;
+        color: $colorDarkModeText_LightModeElements;
+    }
+
+    .inputSearch {
+        color: $colorDarkModeText_LightModeElements;
+
+    }
+
+    .search .fa-search {
+        color: $colorDarkModeText_LightModeElements;
+    }
+
+    input {
+        background-color: $colorDarkModeElements;
+    }
+ 
+    .btnDropdown {
+        background-color: $colorDarkModeElements;
+    }
+
+    .regions {
+        background-color: $colorDarkModeElements;
+    }
+
+    .card-country {
+        background-color: $colorDarkModeElements;
+
+    }
+
+    .back-btn {
+        background-color: $colorDarkModeElements;
+        color: $colorDarkModeText_LightModeElements;
+        transition: $transitions; 
+        
+    }
+
+    .country-btn {
+        background-color: $colorDarkModeElements;
+        color: $colorDarkModeText_LightModeElements;
+        transition: $transitions; 
+        
+    }
+}
